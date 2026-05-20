@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S₂O — Sea²Ocean</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="index.html" class="nav-logo"><img src="images/logo.png" alt=""></a>
+  <div class="nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="news.html">News</a>
+    <a href="promotion.html">Promotion</a>
+    <a href="quiz.html">Quiz</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <img src="images/logo_2.png" alt="">
+    <div class="hero-sub-title">Sauvons les récifs coralliens du Pacifique</div>
+    <p class="hero-body">L'Acanthaster planci — l'étoile de mer couronne d'épines — dévaste silencieusement nos océans. Un individu peut détruire jusqu'à 6 m² de coraux par an.</p>
+    <div class="hero-btns">
+      <button class="btn" onclick="location.href='promotion.html'">Découvrir le projet</button>
+      <button class="btn-ghost" onclick="location.href='quiz.html'">Faire le quiz</button>
+    </div>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat"><span class="stat-n">80 cm</span><div class="stat-l">Diamètre max</div></div>
+  <div class="stat"><span class="stat-n">6 m²</span><div class="stat-l">Coraux détruits / an</div></div>
+  <div class="stat"><span class="stat-n">53M</span><div class="stat-l">Œufs par femelle</div></div>
+  <div class="stat"><span class="stat-n">90%</span><div class="stat-l">Coraux tués en invasion</div></div>
+</div>
+
+<!-- LE PROBLÈME -->
+<div class="section">
+  <span class="eyebrow">Le problème</span>
+  <div class="section-title">Une menace silencieuse</div>
+  <div class="section-sub">Comprendre l'Acanthaster planci</div>
+
+  <div class="alt-grid">
+    <div class="img-ph img-ph-4-3"><img src="images/acanthaster.jpg" alt="acanthaster"></div>
+    <div class="block-text">
+      <h3>Qui est l'Acanthaster ?</h3>
+      <div class="subh">La prédatrice des coraux</div>
+      <p>Grande étoile de mer couverte d'épines venimeuses, elle dévore les coraux Acropora. En cas d'explosion de population, elle peut tuer 90 % des coraux d'une zone entière.</p>
+      <a href="https://fr.wikipedia.org/wiki/Acanthaster"><button class="btn">En savoir plus</button></a>
+    </div>
+  </div>
+
+  <div class="alt-grid flip">
+    <div class="img-ph img-ph-4-3"><img src="images/surpêche.jpg" alt="surpêche"></div>
+    <div class="block-text">
+      <h3>Causes de l'invasion</h3>
+      <div class="subh">Une origine humaine</div>
+      <p>La surpêche élimine ses prédateurs naturels. Le ruissellement agricole nourrit ses larves. Le réchauffement climatique accélère sa reproduction et sa dispersion.</p>
+      <a href="https://www.science-et-vie.com/wp-content/uploads/scienceetvie/2022/04/alerte-etoile-mer-geante-1-516x410.jpg"><button class="btn">Voir la carte</button></a>
+    </div>
+  </div>
+</div>
+
+<!-- NOS SOLUTIONS -->
+<div class="section section-alt">
+  <span class="eyebrow">Nos solutions</span>
+  <div class="section-title">Comment agir ?</div>
+  <div class="section-sub">Des approches technologiques et créatives</div>
+  <div class="grid-2">
+    <div class="card">
+  <h4>Détection des larves</h4>
+  <p>Un outil de détection des larves d'Acanthaster, afin de prévenir la prolifération avant qu'elle atteigne un stade de non-retour.</p>
+  <span class="card-tag">En développement</span>
+</div>
+<div class="card">
+  <h4>Système d'attraction</h4>
+  <p>Un « aimant » qui attire les étoiles de mer en un point permettant de les pêcher en une fois, évitant d'aller les chercher une à une.</p>
+  <span class="card-tag">Concept</span>
+</div>
+  </div>
+</div>
+
+<!-- PRODUCTIONS (SWIPER) -->
+
+<!-- PRODUCTIONS (SWIPER) -->
+<div class="swiper-section">
+  <div class="inner-pad">
+    <span class="eyebrow">Productions</span>
+    <div class="section-title">Le travail de l'équipe</div>
+    <div class="section-sub">Films, jeu, affiches</div>
+  </div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/image v2.png" alt=""><div class="slide-meta"><span class="tag">Studio Film</span><p>Environnement aquatique 3D</p></div></div>
+      <div class="swiper-slide"><img src="images/illu_jv.png" alt=""><div class="slide-meta"><span class="tag">Studio Jeu</span><p>Sea Healer</p></div></div>
+      <div class="swiper-slide"><div class="slide-img"><img src="images/affiches.jpg" alt=""></div><div class="slide-meta"><span class="tag">Créa</span><p>affiches</p></div></div>
+      <div class="swiper-slide"><img src="images/motion.png" alt=""><div class="slide-meta"><span class="tag">Créa</span><p>Présentation du motion design</p></div></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<!-- BANDE QUIZ -->
+<div class="quiz-band">
+  <div>
+    <h2>Testez vos connaissances</h2>
+    <p>Savez-vous vraiment ce qui menace nos récifs coralliens ?</p>
+  </div>
+  <button class="btn-white" onclick="location.href='quiz.html'">Faire le quiz →</button>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <div class="f-logo">S₂O</div>
+  </div>
+  <div class="footer-col">
+    <h5>Pages</h5>
+    <a href="index.html">Accueil</a>
+    <a href="news.html">News</a>
+    <a href="promotion.html">Promotion</a>
+    <a href="quiz.html">Quiz</a>
+  </div>
+<div class="footer-col">
+  <h5>L'équipe</h5>
+  <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 4px 16px;">
+    <a href="https://www.linkedin.com/in/clovis-madelaine-2a732026b/">Clovis</a>
+    <a href="https://www.linkedin.com/in/sawda-mohamed/">Sawda</a>
+    <a href="https://www.linkedin.com/in/diane-beysecker/">Diane</a>
+    <a href="https://www.linkedin.com/in/peschardpierre/  ">Pierre</a>
+    <a href="https://www.linkedin.com/in/axel-joanny-06a055332/">Axel</a>
+    <a href="https://www.linkedin.com/in/christelle-gao/">Christelle</a>
+    <a href="https://www.linkedin.com/in/guillaume-leman-38972b382/">Guillaume</a>
+    <a href="https://www.linkedin.com/in/lola-coudrin/">Lola</a>
+    <a href="https://www.linkedin.com/in/lucien-cros/ ">Lucien</a>
+    <a href="https://www.linkedin.com/in/maxime-lebon-583018383/">Maxime</a>
+    <a href="https://www.linkedin.com/in/maëlle-charlettine-33271b382/">Maëlle</a>
+    <a href="https://www.linkedin.com/in/sara-astuti-aucher/">Sara</a>
+    <a href="https://www.linkedin.com/in/adrien-prestat-61871a382/">Adrien</a>
+  </div>
+</div>
+  <div class="footer-col">
+    <h5>Plateformes</h5>
+    <a href="https://www.instagram.com/sea.2.ocean?igsh=anFoZXAwaHdkemZo&utm_source=qr">Instagram</a>
+    <a href="https://www.tiktok.com/@so34989?_r=1&_t=ZN-96VxC61JuCM">TikTok</a>
+    <a href="https://www.youtube.com/@Sea2Ocean-r8h">YouTube</a>
+    <a href="https://www.linkedin.com/company/sea₂ocean/about/?viewAsMember=true">LinkedIn</a>
+    <a href="https://x.com/sea_2_ocean?s=21">X</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

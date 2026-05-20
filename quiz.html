@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S₂O — Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo"><img src="images/logo.png" alt=""></a>
+    <div class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="news.html">News</a>
+      <a href="promotion.html">Promotion</a>
+      <a href="quiz.html">Quiz</a>
+    </div>
+  </nav>
+
+  <div class="page-hero centered">
+    <span class="eyebrow">Jeu</span>
+    <h1>Le Quiz S₂O</h1>
+    <p>Testez vos connaissances sur l'Acanthaster planci</p>
+  </div>
+
+  <div class="quiz-wrap">
+
+    <div id="quiz-main">
+      <div class="progress-bar-wrap">
+        <div class="progress-label">
+          <span id="q-counter">Question 1 / 6</span>
+          <span id="q-score-live">Score : 0</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+        </div>
+      </div>
+
+      <div class="q-card">
+        <div class="q-number" id="q-number">Question 1</div>
+        <div class="q-text" id="q-text"></div>
+        <div class="options" id="options"></div>
+        <div class="feedback" id="feedback"></div>
+        <div class="q-nav">
+          <button class="btn btn-next" id="btn-next">Question suivante →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="results" id="results">
+      <div class="score-circle">
+        <div class="score-num" id="final-score">0</div>
+        <div class="score-total">/ 6</div>
+      </div>
+      <h2 id="result-title"></h2>
+      <p id="result-msg"></p>
+      <button class="btn" onclick="startQuiz()">Recommencer</button>
+    </div>
+
+  </div>
+
+  <footer class="simple" style="margin-top:64px">
+    <div class="f-logo">S₂O</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
