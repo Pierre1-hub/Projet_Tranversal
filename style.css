@@ -123,7 +123,7 @@ nav {
   color: #ffffff;
 }
 .section-dark .section-sub {
-  color: rgba(224, 205, 169, 0.5);
+  color: var(--céruléen);
 }
 
 .section-title {
@@ -463,10 +463,8 @@ footer.simple {
   padding: 24px 48px;
 }
 
-.f-logo {
-  font-family: "Cooper Black", Georgia, serif;
-  font-size: 22px;
-  color: #ffffff;
+.f-logo img {
+  width: 70px;
 }
 
 .footer-brand p {
