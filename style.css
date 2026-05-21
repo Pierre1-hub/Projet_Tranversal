@@ -371,7 +371,7 @@ nav {
 .swiper-slide-custom {
   background: var(--ciel);
   border-radius: 16px;
-  width: 300px !important;
+  width: 300px ;
   height: 260px;
   display: flex;
   flex-direction: column;
@@ -420,11 +420,11 @@ nav {
 }
 
 .swiper-pagination-bullet {
-  background: var(--sable) !important;
+  background: var(--sable) ;
   opacity: 0.4;
 }
 .swiper-pagination-bullet-active {
-  background: var(--corail) !important;
+  background: var(--corail) ;
   opacity: 1;
 }
 
@@ -694,10 +694,10 @@ footer.simple {
   color: var(--céruléen);
 }
 .mySwiper {
-  padding: 20px 0 50px !important;
+  padding: 20px 0 50px ;
 }
 .mySwiper .swiper-slide {
-  width: 300px !important;
+  width: 300px ;
   height: 260px;
   border-radius: 16px;
   background: var(--ciel);
@@ -890,7 +890,7 @@ footer.simple {
 }
 
 .mySwiper.promo .swiper-slide {
-  width: 320px !important;
+  width: 320px ;
   height: 280px;
   background: var(--sable-dark);
 }
