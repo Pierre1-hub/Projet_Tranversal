@@ -1235,3 +1235,9 @@ footer.simple {
   max-width: 480px;
   margin: 0 auto 28px;
 }
+.media {
+  width: 60%;
+  aspect-ratio: 16/9;
+  border-radius: 16px;
+  margin-left: 350px;
+}
